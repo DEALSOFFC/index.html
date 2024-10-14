@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Jualan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <!-- FOTO  -->
+        <div class="image-container">
+            <img src="https://cdn.tioxy.xyz/uploads/file-1728900003167.jpg"a alt="Header Image">
+        </div>
+
+        <!--  BUTTON -->
+        <div class="button-container">
+            <button class="category-btn" onclick="filterProducts('all')">All</button>
+            <button class="category-btn" onclick="filterProducts('vps')">VPS</button>
+            <button class="category-btn" onclick="filterProducts('panel')">Panel</button>
+            <button class="category-btn" onclick="filterProducts('script')">Script</button>
+            <button class="category-btn" onlick="filterProducts ('paidpromote_jb')">paidpromote_jb</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- LIST PRODUK -->
+        <div id="product-list" class="product-list">
+            <!-- DISINI -->
+        </div>
+
+        <button id="load-more-btn" class="load-more-btn" onclick="loadMore()">Tampilkan Selanjutnya</button>
+    </div>
+
+    <!-- KONTAK ADMIN -->
+    <div class="contact-button" id="contact-button">
+        <img src="https://files.catbox.moe/jc3c6j.jpg" alt="Owner Photo">
+        <div class="contact-text">
+            <h3>CONTACT OWNER</h3>
+            <p>Chat owner jika ada kendala atau ingin memesan sesuatu</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
